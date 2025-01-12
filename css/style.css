@@ -118,8 +118,11 @@ address {
 
 /* START OF SECTION 1 */
 .button_box {
-  background-color: #2e2f42;
+  display: block;
+  position: relative;
   padding: 188px 0;
+  background-color: #2E2F42;
+  background-image: url("../images/people-office.png");
 }
 
 h1 {
