@@ -77,7 +77,28 @@ header .container {
   color: #2e2f42;
   line-height: 24px;
   letter-spacing: 0.02em;
-  padding: 24px 0
+  padding: 24px 0;
+}
+.active {
+  position: relative;
+  color: #404bbf;
+}
+.active::after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(0);
+  transform-origin: bottom right;
+}
+.active:hover::after {
+  transform: scale(1);
+  transform-origin: bottom left;
 }
 .menu_item:hover {
   color: #404bbf;
