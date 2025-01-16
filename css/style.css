@@ -330,8 +330,6 @@ h1 {
   background-color: #404bbf;
 }
 .media_icons {
-  width: 16;
-  height: 16;
   fill: #f4f4fd;
 }
 /* END OF SECTION 3 */
@@ -477,8 +475,6 @@ footer .logo span {
   background-color: #31d0aa;
 }
 .footer_svg {
-  width: 24;
-  height: 24;
   fill: #f4f4fd;
 }
 /* END OF FOOTER */
